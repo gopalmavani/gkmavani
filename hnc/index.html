@@ -26,6 +26,21 @@
   <style type="text/css">
     #services .box {
       height: 300px;
+    }.portfolio-item {
+      height: 250px !important;
+    }.portfolio-item img {
+      width: 425px;
+      height: 300px;
+    }
+    /*#about {
+    background: #474d52;
+    padding: 80px 0;
+    color: white;
+    }#about .about-container .content {
+    background: #474d52;
+    }*/
+    #services {
+    background: #474d52;
     }
   </style>
   <!-- =======================================================
@@ -33,7 +48,7 @@
     Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
-  ======================================================= -->
+  ======================================================= --    >
 </head>
 
 <body>
@@ -86,8 +101,10 @@
   <section id="hero">
     <div class="hero-container">
       <h1>Welcome to H & C</h1>
-      <h2>We are team of talanted Architecture making Design and Plans of Interiour</h2>
-      <a href="#about" class="btn-get-started">Get Started</a>
+      <!-- <h2>We are team of talanted Architecture making Design and Plans of Interiour</h2> -->
+      <h2>Design is what you do when you don't yet know what you are doing.<br style="margin-top: 10px;">Vision is the art of seeing what is invisible to others.</h2>
+      <!-- <h3></h3> -->
+      <!-- <a href="#about" class="btn-get-started">Get Started</a> -->
     </div>
   </section><!-- #hero -->
 
@@ -98,7 +115,7 @@
     ============================-->
     <section id="about">
       <div class="section-header" style="margin-bottom: 40px;">
-        <h3 class="section-title">About Us</h3>    
+        <h3 class="section-title" >About Us</h3>    
       </div>
       <div class="container">
         
@@ -191,7 +208,7 @@
     <section id="services">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Services</h3>
+          <h3 class="section-title" style="color: white;">Services</h3>
           <p class="section-description"></p>
         </div>
         <div class="row">
@@ -268,20 +285,17 @@
       Portfolio Section
 
     ============================-->
-<script type="text/javascript" src="http://app.sliderui.com/sliders/btzpek.js"></script>
+<!-- <script type="text/javascript" src="http://app.sliderui.com/sliders/btzpek.js"></script> -->
 
     <section id="portfolio">
-
-      
-
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Portfolio</h3>
-          <p class="section-description">Architecture is a Visual Art and the building speak themselves</p>
+          <p class="section-description"></p>
         </div>
-        <!-- <div class="row">
+        <div class="row">
 
-          <div class="col-lg-12">
+          <!-- <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
@@ -289,127 +303,129 @@
               <li data-filter=".filter-logo">Logo</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
-          </div>
-        </div> -->
+          </div> -->
+        </div>
 
         <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/archi/1.jpg" alt="">
+              <div class="details">
+                <h4>App 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
-           <div class="container">
-        <!-- Jssor Slider Begin -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/archi/2.jpg" alt="">
+              <div class="details">
+                <h4>Web 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
-        <style>
-            /* jssor slider loading skin spin css */
-            .jssorl-009-spin img {
-                animation-name: jssorl-009-spin;
-                animation-duration: 1.6s;
-                animation-iteration-count: infinite;
-                animation-timing-function: linear;
-            }
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/archi/3.jpg" alt="">
+              <div class="details">
+                <h4>App 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
-            @keyframes jssorl-009-spin {
-                from {
-                    transform: rotate(0deg);
-                }
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/archi/4.jpg" alt="">
+              <div class="details">
+                <h4>Card 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
-                to {
-                    transform: rotate(360deg);
-                }
-            }
-        </style>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/archi/5.jpg" alt="">
+              <div class="details">
+                <h4>Card 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
-        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 1140px; height: 442px; overflow: hidden;">
-            <!-- Loading Screen -->
-            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
-            </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/archi/6.jpg" alt="">
+              <div class="details">
+                <h4>Web 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
-            <!-- Slides Container -->
-            <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 1140px; height: 442px;
-            overflow: hidden;">
-                <div>
-                    <img data-u="image" src="img/archi/1.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/2.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/3.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/4.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/5.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/6.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/7.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/8.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/9.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/10.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/11.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/archi/12.jpg" />
-                </div>
-            </div>
-            
-            <!--#region Bullet Navigator Skin Begin -->
-            <!-- Help: https://www.jssor.com/development/slider-with-bullet-navigator.html -->
-            <style>
-                .jssorb031 {position:absolute;}
-                .jssorb031 .i {position:absolute;cursor:pointer;}
-                .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
-                .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
-                .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
-                .jssorb031 .i.idn {opacity:.3;}
-            </style>
-            <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-                <div data-u="prototype" class="i" style="width:16px;height:16px;">
-                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                    </svg>
-                </div>
-            </div>
-            <!--#endregion Bullet Navigator Skin End -->
-        
-            <!--#region Arrow Navigator Skin Begin -->
-            <!-- Help: https://www.jssor.com/development/slider-with-arrow-navigator.html -->
-            <style>
-                .jssora051 {display:block;position:absolute;cursor:pointer;}
-                .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
-                .jssora051:hover {opacity:.8;}
-                .jssora051.jssora051dn {opacity:.5;}
-                .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
-            </style>
-            <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-                </svg>
-            </div>
-            <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-                </svg>
-            </div>
-            <!--#endregion Arrow Navigator Skin End -->
-        </div>
-        <!-- Jssor Slider End -->
-    </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/archi/7.jpg" alt="">
+              <div class="details">
+                <h4>Card 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/archi/8.jpg" alt="">
+              <div class="details">
+                <h4>App 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/archi/9.jpg" alt="">
+              <div class="details">
+                <h4>Logo 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
-          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/archi/10.jpg" alt="">
+              <div class="details">
+                <h4>Logo 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/archi/11.jpg" alt="">
+              <div class="details">
+                <h4>Web 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/archi/12.jpg" alt="">
+              <div class="details">
+                <h4>Logo 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
 
         </div>
 
@@ -499,7 +515,10 @@
         </div>
       </div>
 
-      <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+      <!-- <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div> -->
+      <div class="map-area">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1565.436332924165!2d-0.9362538502339063!3d38.30561787490515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63952e4559d843%3A0x3b2f49b512447ed5!2sPartida+Algezar%2C+4%2C+03688+La+Canalosa%2C+Alicante%2C+Spain!5e0!3m2!1sen!2sin!4v1532599637099" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+    </div>
 
       <div class="container wow fadeInUp">
         <div class="row justify-content-center">
@@ -623,7 +642,7 @@
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9cY1KEJ8hUqzHicnilgH5PVwx4w61M84"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9cY1KEJ8hUqzHicnilgH5PVwx4w61M84"></script> -->
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/counterup/counterup.min.js"></script>
@@ -638,6 +657,22 @@
 
 </body>
 </html>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCVkU7YnGfown4_i_sm6X36HP2jWTv54&callback=initMap"> </script>
+<script>
+    function initMap() {
+        var location, map, marker;
+        location = {lat: 38.30562, lng: -0.93605};
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: location,
+            zoom: 15,
+            scrollwheel:false
+        });
+        marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+</script>
 
 <script type="text/javascript" src="js/jssor.slider.min.js"></script>
     <script>
